@@ -13,8 +13,8 @@ class Car : IEquatable<Car>
     public string Engine { get; }
     public int MaxSpeed { get; }
 
-    public Car(string name, string engine, int speed) => (Name, Engine, MaxSpeed) = (name, engine, speed); 
-    
+    public Car(string name, string engine, int speed) => (Name, Engine, MaxSpeed) = (name, engine, speed);
+
     public override string? ToString()
     {
         return string.IsNullOrEmpty(Name) ? base.ToString() : Name;

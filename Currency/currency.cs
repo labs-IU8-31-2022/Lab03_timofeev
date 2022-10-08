@@ -20,24 +20,22 @@ class CurrencyEUR : Currency
 {
     public CurrencyEUR(double val) => _value = val;
 
-    public static explicit operator CurrencyEUR(CurrencyUSD val) => new CurrencyEUR(val._value / USD_EUR);
-    public static explicit operator CurrencyEUR(CurrencyRUB val) => new CurrencyEUR(val._value / EUR_RUB);
+    public static explicit operator CurrencyEUR(CurrencyUSD val) => new(val._value / USD_EUR);
+    public static explicit operator CurrencyEUR(CurrencyRUB val) => new(val._value / EUR_RUB);
 }
 
 class CurrencyUSD : Currency
 {
     public CurrencyUSD(double val) => _value = val;
 
-    public static explicit operator CurrencyUSD(CurrencyEUR val) => new CurrencyUSD(val._value * USD_EUR);
-    public static explicit operator CurrencyUSD(CurrencyRUB val) => new CurrencyUSD(val._value / USD_RUB);
-    
+    public static explicit operator CurrencyUSD(CurrencyEUR val) => new(val._value * USD_EUR);
+    public static explicit operator CurrencyUSD(CurrencyRUB val) => new(val._value / USD_RUB);
 }
 
 class CurrencyRUB : Currency
 {
     public CurrencyRUB(double val) => _value = val;
 
-    public static explicit operator CurrencyRUB(CurrencyUSD val) => new CurrencyRUB(USD_RUB * val._value);
-    public static explicit operator CurrencyRUB(CurrencyEUR val) => new CurrencyRUB(USD_RUB * val._value);
-    
+    public static explicit operator CurrencyRUB(CurrencyUSD val) => new(USD_RUB * val._value);
+    public static explicit operator CurrencyRUB(CurrencyEUR val) => new(USD_RUB * val._value);
 }

@@ -26,12 +26,12 @@ struct Vector
     {
         return new Vector(vec1.x + vec2.x, vec1.y + vec2.y, vec1.z + vec2.z);
     }
-    
+
     public static Vector operator *(Vector vec1, Vector vec2)
     {
         return new Vector(vec1.x * vec2.x, vec1.y * vec2.y, vec1.z * vec2.z);
     }
-    
+
     public static Vector operator *(Vector vec1, int num)
     {
         return new Vector(vec1.x * num, vec1.y * num, vec1.z * num);
@@ -56,7 +56,7 @@ struct Vector
     {
         return Calc(vec1) < Calc(vec2);
     }
-    
+
     public static bool operator >(Vector vec1, Vector vec2)
     {
         return Calc(vec1) > Calc(vec2);
