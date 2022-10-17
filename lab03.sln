@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector", "Vector\Vector.csproj", "{8F84BB3C-E251-409D-9560-03EF245A304D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car", "Car\Car.csproj", "{71B713A5-AFE9-4164-B8EC-201FA935E5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Currency", "Currency\Currency.csproj", "{D3F8848B-A5D5-4B1C-B215-95BC993E1031}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F84BB3C-E251-409D-9560-03EF245A304D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F84BB3C-E251-409D-9560-03EF245A304D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F84BB3C-E251-409D-9560-03EF245A304D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F84BB3C-E251-409D-9560-03EF245A304D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B713A5-AFE9-4164-B8EC-201FA935E5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B713A5-AFE9-4164-B8EC-201FA935E5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B713A5-AFE9-4164-B8EC-201FA935E5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B713A5-AFE9-4164-B8EC-201FA935E5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F8848B-A5D5-4B1C-B215-95BC993E1031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F8848B-A5D5-4B1C-B215-95BC993E1031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F8848B-A5D5-4B1C-B215-95BC993E1031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F8848B-A5D5-4B1C-B215-95BC993E1031}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
